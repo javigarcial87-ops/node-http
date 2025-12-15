@@ -1,7 +1,7 @@
 const webInfo = {  //creamos un objeto con la base de datos
-    title: "miprimera web con node",
+    title: "pagina principal",
     subtitle:"Aprendiendo paso a paso",
-    description: "Esta pagina se genera desde un server HTTP en node.js"
+    description: "Esta pagina se genera desde un server HTTP en node.js y parece que funciona"
 
 }
 module.exports= webInfo; //esto permite que otro archivo lo use

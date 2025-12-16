@@ -1,8 +1,8 @@
-const http =require('node:http'); //esto nos da las herramientas para crear un servidor por defecto
+const http = require('node:http'); //esto nos da las herramientas para crear un servidor por defecto
 const webInfo = require('./data.js'); // con esto le decimos que queremos usar los datos del otro archivo (./ significa que esta dentro de esta misma carpeta)
 const { clear } = require('node:console');
 
-const PORT = 3002 // creamos esto porque el servidor necesita un puerto y el numero 3000 es estandar para probar en desarrollo
+const PORT = 3000 // creamos esto porque el servidor necesita un puerto y el numero 3000 es estandar para probar en desarrollo
 
 
 //CREAMOS UN DESTRUCTURING PARA OBTENER DATOS DEL OBJETO
@@ -30,7 +30,7 @@ const PORT = 3002 // creamos esto porque el servidor necesita un puerto y el num
     })
 
     server.listen (PORT, () =>{
-        console.log('servidor activo en http://localhost:${PORT}')
+        console.log('http://localhost:${PORT}')
     })
 //-----------se crea el servidor, y esta funcion anterior se ejecuta cada vez que alguien entra a la web
 
